@@ -36,7 +36,7 @@ export default function About() {
 
             <li class="service-item">
               <div class="service-icon-box">
-                <img src="/public/ui.svg" alt="Web development icon" width="60"/>
+                <img src="./public/ui.svg" alt="Web development icon" width="60"/>
                  </div>
               <div class="service-content-box">
                <h4 class="h4 service-item-title">Web Design</h4>
@@ -50,7 +50,7 @@ export default function About() {
             <li class="service-item">
 
                <div class="service-icon-box">
-                <img src="/public/web.svg" alt="Web development icon" width="60"/>
+                <img src="./public/web.svg" alt="Web development icon" width="60"/>
               </div>
               
 
@@ -68,7 +68,7 @@ export default function About() {
             <li class="service-item">
 
              <div class="service-icon-box">
-                <img src="/public/backend.svg" alt="mobile app icon" width="60"/>
+                <img src="./public/backend.svg" alt="mobile app icon" width="60"/>
               </div>
               <div class="service-content-box">
                 <h4 class="h4 service-item-title">Back-End Development</h4>
