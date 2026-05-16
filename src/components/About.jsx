@@ -1,6 +1,6 @@
-import web from "/ui.svg"
-import web1 from "/web.svg"
-import backend from "/backend.svg"
+import web from "/images/ui.svg"
+import web1 from "/images/web.svg"
+import backend from "/images/backend.svg"
 export default function About() {
   return (
     <article className="about active">
