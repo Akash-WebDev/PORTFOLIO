@@ -1,3 +1,6 @@
+import web from "/ui.svg"
+import web1 from "/web.svg"
+import backend from "/backend.svg"
 export default function About() {
   return (
     <article className="about active">
@@ -36,7 +39,7 @@ export default function About() {
 
             <li class="service-item">
               <div class="service-icon-box">
-                <img src="../public/ui.svg" alt="Web development icon" width="60"/>
+                <img src={web} alt="Web development icon" width="60"/>
                  </div>
               <div class="service-content-box">
                <h4 class="h4 service-item-title">Web Design</h4>
@@ -50,7 +53,7 @@ export default function About() {
             <li class="service-item">
 
                <div class="service-icon-box">
-                <img src="../public/web.svg" alt="Web development icon" width="60"/>
+                <img src={web1} alt="Web development icon" width="60"/>
               </div>
               
 
@@ -68,7 +71,7 @@ export default function About() {
             <li class="service-item">
 
              <div class="service-icon-box">
-                <img src="../public/backend.svg" alt="mobile app icon" width="60"/>
+                <img src={backend} alt="mobile app icon" width="60"/>
               </div>
               <div class="service-content-box">
                 <h4 class="h4 service-item-title">Back-End Development</h4>
